@@ -33,7 +33,7 @@ function imageTemplate(objImage) {
 }
 
 function imagesTemplate(arrImages) {
-  return arrImages.map(imageTemplate).join('\n\n');
+  return arrImages.map(imageTemplate).join('');
 }
 
 const markup = imagesTemplate(images);
