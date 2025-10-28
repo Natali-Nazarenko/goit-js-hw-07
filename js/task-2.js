@@ -25,7 +25,7 @@ const images = [
   }
 ];
 
-const ulGallery = document.querySelector('.js-gallery');
+const ulGallery = document.querySelector('.gallery');
 console.log(ulGallery);
 
 function imageTemplate(objImage) {
